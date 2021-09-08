@@ -5,6 +5,7 @@ body {
 section#home {
  background-image: url(/assets/virusphoto.jpg);
  padding: 150px;
+ height: 700px;
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
@@ -13,7 +14,7 @@ section#home {
 section#content {
 	background-image: url(/assets/virusphoto1.jpg);
 	padding: 150px;
-	height: 200px;
+  height: 700px;
 	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,7 +23,7 @@ section#content {
 section#info {
 	background-image: url(/assets/virusphoto2.jpg);
 	padding: 150px;
-	height: 200px;
+	height: 700px;
 	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
