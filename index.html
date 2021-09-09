@@ -5,6 +5,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Covid-19 & Virology</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
 	<link rel="icon" type="image/png" href="assets/logo.png" />
 	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -23,12 +25,47 @@
 		</h1>
 	</section>
 
-	<section id="info">
-		<h1>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nesciunt cum exercitationem provident, excepturi officia nulla
-			ipsam, possimus eveniet, minus perspiciatis mollitia dicta! Iste vitae nobis nostrum quia accusamus repellendus.
-		</h1>
-	</section>
+	<script src="/module/index.js">
+	</script>
+
+	<table class="table table-striped table-dark">
+		<thead>
+			<tr>
+				<th scope="col">Covid-19 Canada</th>
+				<th scope="col">Quebec</th>
+				<th scope="col">Ontario</th>
+				<th scope="col">Manitoba</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">Cases</th>
+				<td id="cases"></td>
+				<!-- <td id="newCases"></td>
+				<td id="death"></td>
+				<td id="newDeath"></td> -->
+			</tr>
+			<tr>
+				<th scope="row">newCases</th>
+				<td id="newCases"></td>
+				<!-- <td>Thornton</td>
+				<td>@fat</td> -->
+			</tr>
+			<tr>
+				<th scope="row">death</th>
+				<td id="death"></td>
+				<!-- <td>the Bird</td>
+				<td>@twitter</td> -->
+			</tr>
+			<tr>
+				<th scope="row">newDeaths</th>
+				<td id="newDeath"></td>
+				<!-- <td>the Bird</td>
+				<td>@twitter</td> -->
+			</tr>
+		</tbody>
+	</table>
+
 
 	<div class="footer">
 		<h3> &copy; 2021 Covid-19 & Virus</h3>
