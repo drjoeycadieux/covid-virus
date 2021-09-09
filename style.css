@@ -2,6 +2,12 @@ body {
 	padding: 0;
 	margin: 0;
 }
+p#countryName {
+	text-align: center;
+	padding: 10px;
+	color: rgb(19, 94, 207);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 section#home {
  background-image: url(/assets/virusphoto.jpg);
  padding: 150px;
