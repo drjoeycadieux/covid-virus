@@ -21,7 +21,8 @@ section#home {
 section#home > h1 {
 	text-align: center;
 	color: black;
-	font-family: serifl
+	font-family: sans-serif;
+	width: 100%;
 }
 section#home > h2 {
 	color: darkblue;
