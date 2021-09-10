@@ -28,6 +28,7 @@ const dailyEverything = [{
 	vaccination: 12570901,
 	totalRecovered: 378721,
 	totalVaccination: 771,
+	activeCases: 6012,
 }];
 
 
@@ -47,6 +48,8 @@ document.getElementById("death1").innerHTML = dailyVirus[0].death;
 document.getElementById("newDeath1").innerHTML = dailyVirus[0].newDeath;
 
 // dailyEverything ->
+
+document.getElementById("activeCases").innerHTML = dailyEverything[0].activeCases;
 
 document.getElementById("totalDeath").innerHTML = dailyMontreal[0].totalDeath;
 
