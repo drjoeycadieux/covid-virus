@@ -3,6 +3,7 @@
  * @author joey@tech-center.com (Joey Cadieux)
  */
 
+
 const dailyOverview = [{
 	date: '2021-09-10',
 	cases: 395155,
@@ -14,6 +15,7 @@ const dailyOverview = [{
 const dailyMontreal = [{
 	date: '2021-09-10',
 	positiveCases: 268,
+	totalDeath: 4778,
 }];
 
 
@@ -57,6 +59,8 @@ document.getElementById("newDeath1").innerHTML = dailyVirus[0].newDeath;
 // dailyOverview[0] gets the first object, wrapped in braces {}.
 // dailyOverview[1] would get the second object in braces.
 // adding '.cases', '.newCases', etc. gets the property you want.
+
+document.getElementById("totalDeath").innerHTML = dailyMontreal[0].totalDeath;
 
 document.getElementById("totalRecovered").innerHTML = dailyRecovered[0].totalRecovered;
 
