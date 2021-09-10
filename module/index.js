@@ -29,7 +29,7 @@ document.getElementById("death").innerHTML = dailyOverview[0].death;
 document.getElementById("newDeath").innerHTML = dailyOverview[0].newDeath;
 
 
-document.getElementById("cases").innerHTML = dailyOverview[1].cases;
-document.getElementById("newCases").innerHTML = dailyOverview[1].newCases;
-document.getElementById("death").innerHTML = dailyOverview[1].death;
-document.getElementById("newDeath").innerHTML = dailyOverview[1].newDeath;
+// document.getElementById("cases").innerHTML = dailyOverview[1].cases;
+// document.getElementById("newCases").innerHTML = dailyOverview[1].newCases;
+// document.getElementById("death").innerHTML = dailyOverview[1].death;
+// document.getElementById("newDeath").innerHTML = dailyOverview[1].newDeath;
