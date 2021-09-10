@@ -11,6 +11,11 @@ const dailyOverview = [{
 	newDeath: 4,
 }];
 
+const dailyMontreal = [{
+	date: '2021-09-10',
+	positiveCases: 268,
+}];
+
 
 const dailyHospitalizations = [{
 	date: '2021-09-10',
@@ -54,6 +59,9 @@ document.getElementById("hospitalizations").innerHTML = dailyHospitalizations[0]
 
 
 document.getElementById("totalvaccination").innerHTML = dailyTotalVaccination[0].totalvaccination;
+
+
+document.getElementById("positiveCases").innerHTML = dailyMontreal[0].positiveCases;
 
 // dailyOverview ->
 
