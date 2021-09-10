@@ -10,13 +10,6 @@ const dailyOverview = [{
 	death: 11297,
 	newDeath: 1
 }];
-// {
-// 	date: '2021-09-11',
-// 	cases: 395155,
-// 	newCases: 703,
-// 	death: 11297,
-// 	newDeath: 1
-// }];
 
 
 // dailyOverview[0] gets the first object, wrapped in braces {}.
@@ -27,9 +20,3 @@ document.getElementById("cases").innerHTML = dailyOverview[0].cases;
 document.getElementById("newCases").innerHTML = dailyOverview[0].newCases;
 document.getElementById("death").innerHTML = dailyOverview[0].death;
 document.getElementById("newDeath").innerHTML = dailyOverview[0].newDeath;
-
-
-// document.getElementById("cases").innerHTML = dailyOverview[1].cases;
-// document.getElementById("newCases").innerHTML = dailyOverview[1].newCases;
-// document.getElementById("death").innerHTML = dailyOverview[1].death;
-// document.getElementById("newDeath").innerHTML = dailyOverview[1].newDeath;
