@@ -4,6 +4,10 @@
  */
 
 
+// dailyOverview[0] gets the first object, wrapped in braces {}.
+// dailyOverview[1] would get the second object in braces.
+// adding '.cases', '.newCases', etc. gets the property you want.
+
 const dailyOverview = [{
 	date: '2021-09-10',
 	cases: 395155,
@@ -18,26 +22,12 @@ const dailyMontreal = [{
 	totalDeath: 4778,
 }];
 
-
-const dailyHospitalizations = [{
-	date: '2021-09-10',
+const dailyEverything = [{
+	date: '2021-09-10', // never change the date
 	hospitalizations: 207,
-}];
-
-
-const dailyVaccination = [{
-	date: '2021-09-10',
 	vaccination: 12570901,
-}];
-
-const dailyRecovered = [{
-	date: '2021-09-10',
 	totalRecovered: 378721,
-}];
-
-const dailyTotalVaccination = [{
-	date: '2021-09-10',
-	totalvaccination: 77.1,
+	totalVaccination: 771,
 }];
 
 
@@ -56,20 +46,18 @@ document.getElementById("newCases1").innerHTML = dailyVirus[0].newCases;
 document.getElementById("death1").innerHTML = dailyVirus[0].death;
 document.getElementById("newDeath1").innerHTML = dailyVirus[0].newDeath;
 
-// dailyOverview[0] gets the first object, wrapped in braces {}.
-// dailyOverview[1] would get the second object in braces.
-// adding '.cases', '.newCases', etc. gets the property you want.
+
 
 document.getElementById("totalDeath").innerHTML = dailyMontreal[0].totalDeath;
 
-document.getElementById("totalRecovered").innerHTML = dailyRecovered[0].totalRecovered;
+document.getElementById("totalRecovered").innerHTML = dailyEverything[0].totalRecovered;
 
-document.getElementById("vaccination").innerHTML = dailyVaccination[0].vaccination;
+document.getElementById("vaccination").innerHTML = dailyEverything[0].vaccination;
 
-document.getElementById("hospitalizations").innerHTML = dailyHospitalizations[0].hospitalizations;
+document.getElementById("hospitalizations").innerHTML = dailyEverything[0].hospitalizations;
 
 
-document.getElementById("totalvaccination").innerHTML = dailyTotalVaccination[0].totalvaccination;
+document.getElementById("totalVaccination").innerHTML = dailyEverything[0].totalVaccination;
 
 
 document.getElementById("positiveCases").innerHTML = dailyMontreal[0].positiveCases;
