@@ -4,12 +4,19 @@
  */
 
 const dailyOverview = [{
-	date: '2021-09-09',
+	date: '2021-09-10',
 	cases: 395155,
 	newCases: 703,
 	death: 11297,
 	newDeath: 1
 }];
+// {
+// 	date: '2021-09-11',
+// 	cases: 395155,
+// 	newCases: 703,
+// 	death: 11297,
+// 	newDeath: 1
+// }];
 
 
 // dailyOverview[0] gets the first object, wrapped in braces {}.
