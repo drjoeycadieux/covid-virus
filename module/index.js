@@ -6,9 +6,15 @@
 const dailyOverview = [{
 	date: '2021-09-10',
 	cases: 395155,
-	newCases: 703,
-	death: 11297,
-	newDeath: 1
+	newCases: 879,
+	death: 11301,
+	newDeath: 4
+}];
+
+
+const dailyHospitalizations = [{
+	date: '2021-09-10',
+	hospitalizations: 207,
 }];
 
 
@@ -30,6 +36,8 @@ document.getElementById("newDeath1").innerHTML = dailyVirus[0].newDeath;
 // dailyOverview[0] gets the first object, wrapped in braces {}.
 // dailyOverview[1] would get the second object in braces.
 // adding '.cases', '.newCases', etc. gets the property you want.
+
+document.getElementById("hospitalizations").innerHTML = dailyHospitalizations[0].hospitalizations;
 
 // dailyOverview ->
 
