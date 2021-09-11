@@ -43,12 +43,19 @@
 
 
 	<script type="text/javascript"> 
-      
-	const { user, session, error } = await supabase.auth.signIn({
-  email: 'example@email.com',
-  password: 'example-password',
-});
-		 
+	 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYzMTM4ODk2OSwiZXhwIjoxOTQ2OTY0OTY5fQ.xS2gLg3KwYe1Ao3u3_N9vQmH_gbxHmRBdQ6Q5afyKZ4'
+
+	 
+   const SUPABASE_URL = "https://oqqjotgzkxocgouszlak.supabase.co"
+
+   const supabase = createClient(SUPABASE_URL, process.env.SUPABASE_KEY);
+
+	
+  // Sign in with email
+  const { user, error } = await supabase.auth.signIn({
+    email: 'example@email.com',
+    password: 'example-password',
+  });
 	</script>
 	
 </body>
