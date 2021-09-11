@@ -7,13 +7,19 @@
 	<link rel="stylesheet" href="adminform.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
 	 crossorigin="anonymous">
-	<title>Admin | COVID-19 Canada Open Data Working Group</title>
+	<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js">
+
+	</script>
+	<script src="https://unpkg.com/@supabase/supabase-js">
+
+	</script>
+	<title>Account | COVID-19 Canada Open Data Working Group</title>
 </head>
 
 <body>
 
 	<header>
-		<h3>Admin Data Entry | COVID-19 Canada Open Data Working Group</h3>
+		<h3>Your Account | COVID-19 Canada Open Data Working Group</h3>
 	</header>
 
 	<div class="adminform">
@@ -34,6 +40,16 @@
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 	</div>
+
+
+	<script type="text/javascript"> 
+      
+	const { user, session, error } = await supabase.auth.signIn({
+  email: 'example@email.com',
+  password: 'example-password',
+});
+		 
+	</script>
 	
 </body>
 </html>
