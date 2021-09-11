@@ -10,7 +10,7 @@
 
 const dailyOverview = [{
 	date: '2021-09-10',
-	cases: 395155,
+	cases: 396034,
 	newCases: 879,
 	death: 11301,
 	newDeath: 4,
