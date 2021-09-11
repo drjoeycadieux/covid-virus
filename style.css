@@ -11,18 +11,26 @@ p#countryName {
 section#home {
  background-image: url(/assets/virusphoto.jpg);
  padding: 150px;
- height: 700px;
+ height: 720px;
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
  position: relative;
+}
+.covidboard {
+	padding: 95px;
+	background-color: #2c3e50;
+}
+.covidboard1 {
+	padding: 95px;
+	background-color: #2c3e50;
 }
 
 section#home > h1 {
 	text-align: center;
 	color: black;
 	font-family: sans-serif;
-	width: 100%;
+	margin: 0 auto;
 }
 section#home > h2 {
 	color: darkblue;
@@ -32,8 +40,12 @@ section#home > h2 {
 }
 
 .footer {
-	background-color: #2c3e50;
+	background-color: black;
 	padding: 80px;
+}
+.footer > .contribute {
+	text-align: center;
+	color: white;
 }
 .footer > h3 {
 	text-align: center;

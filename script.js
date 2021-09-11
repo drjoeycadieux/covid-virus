@@ -4,7 +4,7 @@
  */
 
 
-let countryName = ["Canada", "United State", "Mexico"];
+let countryName = ["COVID-19 Canada Open Data Working Group"];
 countryName.toString;
 
 document.getElementById("countryName").innerHTML = countryName;
