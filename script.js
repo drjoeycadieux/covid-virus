@@ -3,6 +3,8 @@
  * @author joey@tech-center.com (Joey Cadieux)
  */
 
+const alert = 
+
 
 let countryName = ["COVID-19 Canada Open Data Working Group"];
 countryName.toString;

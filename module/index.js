@@ -4,6 +4,7 @@
  */
 
 
+
 // dailyOverview[0] gets the first object, wrapped in braces {}.
 // dailyOverview[1] would get the second object in braces.
 // adding '.cases', '.newCases', etc. gets the property you want.
