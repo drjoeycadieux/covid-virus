@@ -3,43 +3,48 @@
  * @author joey@tech-center.com (Joey Cadieux)
  */
 
-
-
 // dailyOverview[0] gets the first object, wrapped in braces {}.
 // dailyOverview[1] would get the second object in braces.
 // adding '.cases', '.newCases', etc. gets the property you want.
 
-const dailyOverview = [{
-	date: '2021-09-10',
-	cases: 396034,
-	newCases: 879,
-	death: 11301,
-	newDeath: 4,
-}];
+const dailyOverview = [
+  {
+    date: "2021-09-14",
+    cases: 398425,
+    newCases: 879,
+    death: 11305,
+    newDeath: 4
+  }
+];
 
-const dailyMontreal = [{
-	date: '2021-09-10',
-	positiveCases: 268,
-	totalDeath: 4778,
-}];
+const dailyMontreal = [
+  {
+    date: "2021-09-10",
+    positiveCases: 268,
+    totalDeath: 4778
+  }
+];
 
-const dailyEverything = [{
-	date: '2021-09-10', // never change the date
-	hospitalizations: 207,
-	vaccination: 12570901,
-	totalRecovered: 378721,
-	totalVaccination: 771,
-	activeCases: 6012,
-}];
+const dailyEverything = [
+  {
+    date: "2021-09-10", // never change the date
+    hospitalizations: 227,
+    vaccination: 12570901,
+    totalRecovered: 380825,
+    totalVaccination: 771,
+    activeCases: 6012
+  }
+];
 
-
-const dailyVirus = [{
-	date: '2021-09-10',
-	cases: 10155,
-	newCases: 10290,
-	death: 9579,
-	newDeath: 39830,
-}];
+const dailyVirus = [
+  {
+    date: "2021-09-10",
+    cases: 10155,
+    newCases: 10290,
+    death: 9579,
+    newDeath: 39830
+  }
+];
 
 // dailyVirus ->
 
@@ -50,21 +55,25 @@ document.getElementById("newDeath1").innerHTML = dailyVirus[0].newDeath;
 
 // dailyEverything ->
 
-document.getElementById("activeCases").innerHTML = dailyEverything[0].activeCases;
+document.getElementById("activeCases").innerHTML =
+  dailyEverything[0].activeCases;
 
 document.getElementById("totalDeath").innerHTML = dailyMontreal[0].totalDeath;
 
-document.getElementById("totalRecovered").innerHTML = dailyEverything[0].totalRecovered;
+document.getElementById("totalRecovered").innerHTML =
+  dailyEverything[0].totalRecovered;
 
-document.getElementById("vaccination").innerHTML = dailyEverything[0].vaccination;
+document.getElementById("vaccination").innerHTML =
+  dailyEverything[0].vaccination;
 
-document.getElementById("hospitalizations").innerHTML = dailyEverything[0].hospitalizations;
+document.getElementById("hospitalizations").innerHTML =
+  dailyEverything[0].hospitalizations;
 
+document.getElementById("totalVaccination").innerHTML =
+  dailyEverything[0].totalVaccination;
 
-document.getElementById("totalVaccination").innerHTML = dailyEverything[0].totalVaccination;
-
-
-document.getElementById("positiveCases").innerHTML = dailyMontreal[0].positiveCases;
+document.getElementById("positiveCases").innerHTML =
+  dailyMontreal[0].positiveCases;
 
 // dailyOverview ->
 
