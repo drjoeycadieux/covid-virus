@@ -19,7 +19,7 @@ const dailyOverview = [
 
 const dailyMontreal = [
   {
-    date: "2021-09-10",
+    date: "2021-09-14",
     positiveCases: 268,
     totalDeath: 4778
   }
@@ -27,7 +27,7 @@ const dailyMontreal = [
 
 const dailyEverything = [
   {
-    date: "2021-09-10", // never change the date
+    date: "2021-09-14", // never change the date
     hospitalizations: 227,
     vaccination: 12570901,
     totalRecovered: 380825,
@@ -38,7 +38,7 @@ const dailyEverything = [
 
 const dailyVirus = [
   {
-    date: "2021-09-10",
+    date: "2021-09-14",
     cases: 10155,
     newCases: 10290,
     death: 9579,
