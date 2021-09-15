@@ -10,10 +10,10 @@
 const dailyOverview = [
   {
     date: "2021-09-14",
-    cases: 398425,
+    cases: 399058, // Done
     newCases: 879,
-    death: 11305,
-    newDeath: 4
+    death: 11312, // Done
+    newDeath: 7, // Done
   }
 ];
 
@@ -28,9 +28,9 @@ const dailyMontreal = [
 const dailyEverything = [
   {
     date: "2021-09-14", // never change the date
-    hospitalizations: 227,
+    hospitalizations: 230, // Done
     vaccination: 12570901,
-    totalRecovered: 380825,
+    totalRecovered: 381505, // Done
     totalVaccination: 771,
     activeCases: 6012
   }
