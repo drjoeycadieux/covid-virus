@@ -9,3 +9,6 @@ countryName.toString;
 document.getElementById("countryName").innerHTML = countryName;
 
 console.log(countryName.length);
+
+const days = moment().format('LLL');
+document.getElementById("days").innerHTML = days;
