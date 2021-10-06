@@ -32,8 +32,8 @@ section#home > div#alert {
 section#home > h1 {
   text-align: center;
   color: black;
-  font-family: sans-serif;
-  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	width: 100%;
 }
 section#home > h2 {
   color: darkblue;
@@ -58,4 +58,15 @@ section#home > h2 {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
+}
+.subfooter {
+	padding: 15px;
+	background-color: white;
+}
+.subfooter > h4 {
+	color: rgb(22, 109, 209);
+	font-size: 15px;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 1.5rem;
 }
