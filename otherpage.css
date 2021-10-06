@@ -1,0 +1,14 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+header {
+	padding: 100px;
+	background-color: rgb(17, 88, 194);
+}
+header > h3 {
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+	display: inline;
+}
